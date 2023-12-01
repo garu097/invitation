@@ -11,11 +11,16 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.9",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@chakra-ui/react-types": "^2.0.6",
     "@commitlint/config-conventional": "^18.4.3",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -31,6 +36,7 @@
     "lint-staged": "^15.1.0",
     "postcss": "^8",
     "prettier": "^3.1.0",
+    "sass": "^1.69.5",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },

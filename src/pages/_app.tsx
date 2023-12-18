@@ -1,5 +1,5 @@
 import { AppChakraProvider } from "@/providers/chakra-provider";
-import { combineProviders } from "@/utils/combine-providers";
+import { combineProviders } from "@/utils";
 import { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import "./font.module.scss";
+@import "./animation.scss";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -21,11 +22,13 @@
 html,
 body {
   font-family: "Nunito";
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  // color: rgb(var(--foreground-rgb));
+  // background: linear-gradient(
+  //     to bottom,
+  //     transparent,
+  //     rgb(var(--background-end-rgb))
+  //   )
+  //   rgb(var(--background-start-rgb));
+  // height: var(--chakra-vh);
 }

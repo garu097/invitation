@@ -21,6 +21,7 @@ const configTheme: ThemeOverride = {
     transparent: "transparent",
     black: "#000",
     white: "#fff",
+    bgPrimary: "#B51541",
   },
   space: {
     px: "1px",

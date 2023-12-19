@@ -8,6 +8,7 @@ const configTheme: ThemeOverride = {
   fonts: {
     heading: `'Nunito', sans-serif`,
     body: `'Nunito', sans-serif`,
+    Dancing: `'Dancing', 'Nunito', sans-serif`,
   },
   breakpoints: {
     base: "0em",

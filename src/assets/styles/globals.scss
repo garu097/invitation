@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./font.module.scss";
-@import "./animation.scss";
+@import "./font.scss";
 
 :root {
   --foreground-rgb: 0, 0, 0;

@@ -1,3 +1,4 @@
+import { BGChristmas } from "@/app/components/BGChristmas";
 import { SnowFlakes } from "@/app/components/SnowFlakes";
 import { Box, Flex } from "@chakra-ui/react";
 import { TypeAnimation } from "react-type-animation";
@@ -6,7 +7,9 @@ import "../assets/styles/font.scss";
 const Home = () => {
   return (
     <Box w="100dvw" h="100dvh" bgColor="bgPrimary">
-      <Flex h="full" flexDir="column" alignContent="center" justifyContent="center">
+      <Flex h="full" flexDir="column" alignContent="center" justifyContent="start">
+        <BGChristmas />
+
         <TypeAnimation
           sequence={[500, "Merry Christmas!"]}
           cursor={false}
